@@ -7,8 +7,8 @@ let button = document.getElementById("replay");
 let scorebutton = document.getElementById("file");
 
 //audios
-let correct = new Audio('correct.mp3');
-let incorrect = new Audio('incorrect.mp3');
+let correct = new Audio('music/correct.mp3');
+let incorrect = new Audio('music/incorrect.mp3');
 let ScoreValue = 0;
 let colors = [];
 
