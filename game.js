@@ -19,8 +19,8 @@ function init(){
 }
 
 function setBackgroundImage() {
-    // let backdrop = document.getElementById("body");
-    // backdrop.style.backgroundImage = "url('1001548.jpg')";
+    let backdrop = document.getElementById("body");
+    backdrop.style.backgroundImage = "url('images/image.png')";
   }
   setBackgroundImage();
   

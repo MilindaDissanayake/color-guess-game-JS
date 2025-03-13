@@ -3,13 +3,8 @@
   padding: 0;
 }
 
-/* #body {
+#body {
   background-color: rgb(221, 204, 204);
-  background-image: url('images/image.png');
-} */
-
-body {
-  background-image: url('images/image.png');
 }
 
 
