@@ -1,6 +1,12 @@
-#body {
-  background-color: aliceblue;
+* {
+  margin: 0;
+  padding: 0;
 }
+
+#body {
+  background-color: rgb(221, 204, 204);
+}
+
 
 .indicator {
   height: 80px;
@@ -8,7 +14,24 @@
   background-color: #3c1b3c;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: cursive;
+  color: white;
+  font-size: 1.5rem;
+  outline: none;
+}
+
+.color-name {
+  height: 80px;
+  width: 400px;
+  background-color: #817681;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: poppins;
   color: white;
   font-size: 1.5rem;
   outline: none;
@@ -25,4 +48,36 @@
   border-style: solid;
   border-width: 2px;
   border-color: black;
+}
+
+.square:hover {
+  transform: scale(1.3);
+  transition-duration: 0.3s;
+}
+
+button {
+  height: 70px;
+  width: 400px;
+  background-color: #e098bc;
+  font-family: cursive;
+  color: white;
+  font-size: 1.5rem;
+  outline: none;
+  cursor: pointer;
+}
+
+.score-box {
+  background-color: #3c1b3c;
+  height: 80px;
+  width: 200px;
+  position: absolute;
+  right: 80%;
+  border-radius: 5px;
+  top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  font-family: poppins;
+  color: white;
 }
